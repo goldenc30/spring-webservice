@@ -19,3 +19,4 @@ notifications:
   email:
     recipients:
       - djunga@pulmuone.com
+  slack: onlinebizdiv:oW3fOCgkoJkHlzch5evPXjTu
