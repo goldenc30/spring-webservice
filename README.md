@@ -1,0 +1,1 @@
+spring-webservice [![Build Status](https://travis-ci.org/goldenc30/spring-webservice.svg?branch=master)](https://travis-ci.org/goldenc30/spring-webservice)
