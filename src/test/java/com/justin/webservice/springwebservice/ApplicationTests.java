@@ -1,4 +1,4 @@
-package com.djunga.webservice.springwebservice;
+package com.justin.webservice.springwebservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringWebserviceApplicationTests {
+public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {

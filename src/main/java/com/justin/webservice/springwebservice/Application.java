@@ -1,10 +1,10 @@
-package com.djunga.webservice.springwebservice;
+package com.justin.webservice.springwebservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-@EnableJpaAuditing
+@EnableJpaAuditing // JPA Auditing 활성화
 @SpringBootApplication
 public class Application {
 

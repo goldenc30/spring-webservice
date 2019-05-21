@@ -1,8 +1,8 @@
-package com.djunga.webservice.springwebservice.web;
+package com.justin.webservice.springwebservice.web;
 
-import com.djunga.webservice.springwebservice.domain.posts.PostsRepository;
-import com.djunga.webservice.springwebservice.dto.posts.PostsSaveRequestDto;
-import com.djunga.webservice.springwebservice.service.PostsService;
+import com.justin.webservice.springwebservice.domain.posts.PostsRepository;
+import com.justin.webservice.springwebservice.dto.posts.PostsSaveRequestDto;
+import com.justin.webservice.springwebservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class WebRestController {
 
-    private PostsRepository postsRepository;
     private PostsService postsService;
 
     @GetMapping("/hello")

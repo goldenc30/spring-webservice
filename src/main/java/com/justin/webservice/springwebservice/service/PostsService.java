@@ -1,8 +1,8 @@
-package com.djunga.webservice.springwebservice.service;
+package com.justin.webservice.springwebservice.service;
 
-import com.djunga.webservice.springwebservice.domain.posts.PostsRepository;
-import com.djunga.webservice.springwebservice.dto.posts.PostsMainResponseDto;
-import com.djunga.webservice.springwebservice.dto.posts.PostsSaveRequestDto;
+import com.justin.webservice.springwebservice.domain.posts.PostsRepository;
+import com.justin.webservice.springwebservice.dto.posts.PostsMainResponseDto;
+import com.justin.webservice.springwebservice.dto.posts.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,6 +19,7 @@ public class PostsService {
     public Long save(PostsSaveRequestDto dto){
         return postsRepository.save(dto.toEntity()).getId();
     }
+
 
     @Transactional(readOnly = true)
     public List<PostsMainResponseDto> findAllDesc() {

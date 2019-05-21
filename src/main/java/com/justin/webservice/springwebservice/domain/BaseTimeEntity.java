@@ -1,4 +1,4 @@
-package com.djunga.webservice.springwebservice.domain;
+package com.justin.webservice.springwebservice.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

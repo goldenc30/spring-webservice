@@ -1,6 +1,6 @@
-package com.djunga.webservice.springwebservice.dto.posts;
+package com.justin.webservice.springwebservice.dto.posts;
 
-import com.djunga.webservice.springwebservice.domain.posts.Posts;
+import com.justin.webservice.springwebservice.domain.posts.Posts;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

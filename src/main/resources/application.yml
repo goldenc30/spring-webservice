@@ -16,7 +16,8 @@ spring:
     console:
       enabled: true
 
-# stage 환경
+
+# Stage 환경
 ---
 spring:
   profiles: stage

@@ -1,4 +1,5 @@
-package com.djunga.webservice.web;
+package com.justin.webservice.springwebservice.web;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

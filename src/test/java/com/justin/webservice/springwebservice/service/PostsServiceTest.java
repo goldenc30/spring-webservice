@@ -1,7 +1,8 @@
-package com.djunga.webservice.springwebservice.service;
-import com.djunga.webservice.springwebservice.domain.posts.Posts;
-import com.djunga.webservice.springwebservice.domain.posts.PostsRepository;
-import com.djunga.webservice.springwebservice.dto.posts.PostsSaveRequestDto;
+package com.justin.webservice.springwebservice.service;
+
+import com.justin.webservice.springwebservice.domain.posts.Posts;
+import com.justin.webservice.springwebservice.domain.posts.PostsRepository;
+import com.justin.webservice.springwebservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,6 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PostsServiceTest {
+
     @Autowired
     private PostsService postsService;
 

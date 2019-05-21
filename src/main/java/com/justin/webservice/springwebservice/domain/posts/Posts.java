@@ -1,6 +1,6 @@
-package com.djunga.webservice.springwebservice.domain.posts;
+package com.justin.webservice.springwebservice.domain.posts;
 
-import com.djunga.webservice.springwebservice.domain.BaseTimeEntity;
+import com.justin.webservice.springwebservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Entity
-public class Posts extends BaseTimeEntity {
+public class Posts  extends BaseTimeEntity {
 
     @Id
     @GeneratedValue

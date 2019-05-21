@@ -1,7 +1,6 @@
-package com.djunga.webservice.springwebservice.web;
+package com.justin.webservice.springwebservice.web;
 
-
-import com.djunga.webservice.springwebservice.service.PostsService;
+import com.justin.webservice.springwebservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
